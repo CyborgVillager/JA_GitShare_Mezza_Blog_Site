@@ -18,7 +18,7 @@ Feel free to edit the site either through code or on the site, lets increase the
 many lives together (▀̿Ĺ̯▀̿ ̿)
 
 On- Site Login:
-User: Admin
+User: admin
 Pass: Password
 
 
