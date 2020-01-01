@@ -8,6 +8,7 @@
                | v# : Short Version Title    |
                | Description: v# description |
                | --------------------------- |
+               
 v0 : Introduction of the project and the main intent of it
 v1: Setup Mezzanine, created login/setup basic db, will work further on the admin side
 v2: Added 'About Us Page' & a custom post to test out a couple of features of using Mezzanine
