@@ -22,4 +22,8 @@ User: admin
 Pass: Password
 
 
+-------
+To start via terminal : cd my_project -> python manage.py runserver
+-------
+
 ~ JA
