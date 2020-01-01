@@ -61,7 +61,7 @@ from django.utils.translation import ugettext_lazy as _
 # EXTRA_MODEL_FIELDS = (
 #     (
 #         # Dotted path to field.
-#         "mezzanine.blog.models.BlogPost.image",
+#         "mezzanine.blog.models.BlogPost.img",
 #         # Dotted path to field class.
 #         "somelib.fields.ImageField",
 #         # Positional args for field class.

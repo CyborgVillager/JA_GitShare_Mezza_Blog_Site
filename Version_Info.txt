@@ -2,6 +2,7 @@
                 -- = current version
                 -wor: = working on this ver
                  <-x_x-> = bug
+                 <-o_o-> = design issue
 
                      ~Updating to repo~
                | --------------------------- |
@@ -33,8 +34,11 @@ pages(tempdrafts) into your templates folder (theme/templates). This is due to r
     its default to search for all to give the user the option to choose the info that they desired
     Link to further learn: http://mezzanine.jupo.org/docs/search-engine.html
 ----------------------------   ----------------------------   ---------------------------- ----------------------------
--wor:v5:
-v6:
+--v5 <-o_o->:  When working on aquiring info from theme/static ensure you follow this format ->
+                {% static 'folder/folder/info/info' %}
+               Aquired the template from : https://startbootstrap.com/themes/clean-blog/ and impletemented some of its
+                features onto the site for a 'clean look'
+-wor:v6:
 v7:
 v8:
 v9:
