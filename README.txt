@@ -9,7 +9,7 @@ Basically help aid in the creation of a CMS style site, while saving time & impr
 efficiency of a content - sharing project.
 
 Will update this site to further improve my understanding of python, web creation, and eventually A.I development.
-So far this journey has been great and I cant wait to see what my skills become in the next few months - years from now!
+So far this journey has been great and I cant wait to see what my skills will become in the next few months - years from now!
 
 
 ~ JA
