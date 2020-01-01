@@ -11,5 +11,7 @@ efficiency of a content - sharing project.
 Will update this site to further improve my understanding of python, web creation, and eventually A.I development.
 So far this journey has been great and I cant wait to see what my skills will become in the next few months - years from now!
 
+Link to learn about Mezzanine CMS / tutor:
+https://www.skillshare.com/classes/Create-a-Blog-with-Mezzanine-CMS-The-Best-Django-CMS/661226492
 
 ~ JA
