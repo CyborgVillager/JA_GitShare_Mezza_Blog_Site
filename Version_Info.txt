@@ -68,8 +68,9 @@ v7 <-o_o->: Removed a breadcrumb menu, removed empty boxes to the right of the s
 
                 Its orignally was mezzanine.pages.views.page. If you keep it as it is, an error will occur. So only
                 delete mezzanine.pages.views. so it will be page,
-----------------------------   ----------------------------   ---------------------------- ----------------------------
 
+                To aquire more info check mezzanine @ mezzanine_pyvenv/mezzanine/pages/views.py
+----------------------------   ----------------------------   ---------------------------- ----------------------------
 -wor:v9:
 v10:
 v11:
