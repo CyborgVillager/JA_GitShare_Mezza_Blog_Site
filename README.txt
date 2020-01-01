@@ -14,4 +14,12 @@ So far this journey has been great and I cant wait to see what my skills will be
 Link to learn about Mezzanine CMS / tutor:
 https://www.skillshare.com/classes/Create-a-Blog-with-Mezzanine-CMS-The-Best-Django-CMS/661226492
 
+Feel free to edit the site either through code or on the site, lets increase the world's knowledge/ improve
+many lives together (▀̿Ĺ̯▀̿ ̿)
+
+On- Site Login:
+User: Admin
+Pass: Password
+
+
 ~ JA

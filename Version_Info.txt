@@ -8,9 +8,9 @@
                | v# : Short Version Title    |
                | Description: v# description |
                | --------------------------- |
---v0 : Introduction of the project and the main intent of it
--wor:v1:
-v2:
+v0 : Introduction of the project and the main intent of it
+--:v1: Setup Mezzanine, created login/setup basic db, will work further on the admin side
+-wor:v2:
 v3:
 v4:
 v5:
