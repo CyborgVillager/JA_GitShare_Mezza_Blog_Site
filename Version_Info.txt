@@ -38,10 +38,15 @@ v5 <-o_o->:  When working on aquiring info from theme/static ensure you follow t
                 {% static 'folder/folder/info/info' %}
                Aquired the template from : https://startbootstrap.com/themes/clean-blog/ and impletemented some of its
                 features onto the site for a 'clean look'
---v6 <-o_o->: Worked further on improving the site design from v5, updated the nav bar to auto aquire the info, included
+v6 <-o_o->: Worked further on improving the site design from v5, updated the nav bar to auto aquire the info, included
                 tempdrafts/pages/menus into templates for better menu design.
--wor:v7:
-v8:
+--:v7 <-o_o->: Removed a breadcrumb menu, removed empty boxes to the right of the screen, that holds no data.
+                Cleaned the code of any info that is not being used. Will include if any new functions are needed for
+                the site. As of now the essentials are being built.
+
+                * on templates\index.html to aquire image follow this format :
+                  <header class="masthead" style="background-image: url('{{STATIC_URL}}img/home-bg.jpg')">
+-wor:v8:
 v9:
 v10:
 v11:
