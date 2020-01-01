@@ -14,7 +14,7 @@ v1: Setup Mezzanine, created login/setup basic db, will work further on the admi
 v2: Added 'About Us Page' & a custom post to test out a couple of features of using Mezzanine
 --v3: Updated mezzanine_pyvenv / placed in corrected format
 ----------------------------    ----------------------------   ------------------------- ------------------------------
-v4: Collected the templates from Mezzanine to be used as temp drafts for future testing/improvements for the site.
+--v4: Collected the templates from Mezzanine to be used as temp drafts for future testing/improvements for the site.
 command to do this (while in my_project dir) -> python manage.py collecttemplates -> rename to tempdrafts
 
     * In order to 'move' a file such as form.html you have to copy the whole folder. e.g to aquire form.html copy
@@ -33,8 +33,8 @@ pages(tempdrafts) into your templates folder (theme/templates). This is due to r
     its default to search for all to give the user the option to choose the info that they desired
     Link to further learn: http://mezzanine.jupo.org/docs/search-engine.html
 ----------------------------   ----------------------------   ---------------------------- ----------------------------
---v5:
--wor:v6:
+-wor:v5:
+v6:
 v7:
 v8:
 v9:
