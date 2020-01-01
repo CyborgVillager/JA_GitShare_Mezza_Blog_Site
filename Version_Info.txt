@@ -8,14 +8,33 @@
                | v# : Short Version Title    |
                | Description: v# description |
                | --------------------------- |
-               
+
 v0 : Introduction of the project and the main intent of it
 v1: Setup Mezzanine, created login/setup basic db, will work further on the admin side
 v2: Added 'About Us Page' & a custom post to test out a couple of features of using Mezzanine
 --v3: Updated mezzanine_pyvenv / placed in corrected format
--wor:v4:
-v5:
-v6:
+----------------------------    ----------------------------   ------------------------- ------------------------------
+v4: Collected the templates from Mezzanine to be used as temp drafts for future testing/improvements for the site.
+command to do this (while in my_project dir) -> python manage.py collecttemplates -> rename to tempdrafts
+
+    * In order to 'move' a file such as form.html you have to copy the whole folder. e.g to aquire form.html copy
+pages(tempdrafts) into your templates folder (theme/templates). This is due to referencing the data tree.
+
+    * As of now I've just copied base.html from tempdrafts and paste into onto templates. Since base.html didn't have
+    a main folder for reference you'll be okay.
+
+    * Ensure on my_project/settings.py line #202 or known as  os.path.join(PROJECT_ROOT, "templates"), has 'templates'
+    to allow proper data to be transfered to the site. Thanks in part to stackoverflow for assistance ->
+    https://stackoverflow.com/questions/41519534/static-files-not-found-in-mezzanine
+
+    * line 65 - 67 on editing the search feature @ templates/base.html ->
+    <div class="navbar-collapse collapse">
+    {% search_form "blog.BlogPost" %} or 'pages.Page' to either only search for blog posts, pages, etc. As of now
+    its default to search for all to give the user the option to choose the info that they desired
+    Link to further learn: http://mezzanine.jupo.org/docs/search-engine.html
+----------------------------   ----------------------------   ---------------------------- ----------------------------
+--v5:
+-wor:v6:
 v7:
 v8:
 v9:

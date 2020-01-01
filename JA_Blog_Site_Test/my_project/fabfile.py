@@ -222,7 +222,7 @@ def log_call(func):
 
 def get_templates():
     """
-    Returns each of the templates with env vars injected.
+    Returns each of the tempdrafts with env vars injected.
     """
     injected = {}
     for name, data in templates.items():
