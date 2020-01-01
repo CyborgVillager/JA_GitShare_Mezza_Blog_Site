@@ -43,7 +43,6 @@ v6 <-o_o->: Worked further on improving the site design from v5, updated the nav
 --:v7 <-o_o->: Removed a breadcrumb menu, removed empty boxes to the right of the screen, that holds no data.
                 Cleaned the code of any info that is not being used. Will include if any new functions are needed for
                 the site. As of now the essentials are being built.
-
                 * on templates\index.html to aquire image follow this format :
                   <header class="masthead" style="background-image: url('{{STATIC_URL}}img/home-bg.jpg')">
 -wor:v8:
