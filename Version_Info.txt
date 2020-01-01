@@ -2,7 +2,10 @@
                 -- = current version
                 -wor: = working on this ver
                  <-x_x-> = bug
+                 |x_x| = bug fixed
                  <-o_o-> = design issue
+                 |o_o| = design issue fixed
+
 
                      ~Updating to repo~
                | --------------------------- |
@@ -38,15 +41,36 @@ v5 <-o_o->:  When working on aquiring info from theme/static ensure you follow t
                 {% static 'folder/folder/info/info' %}
                Aquired the template from : https://startbootstrap.com/themes/clean-blog/ and impletemented some of its
                 features onto the site for a 'clean look'
+
 v6 <-o_o->: Worked further on improving the site design from v5, updated the nav bar to auto aquire the info, included
                 tempdrafts/pages/menus into templates for better menu design.
---:v7 <-o_o->: Removed a breadcrumb menu, removed empty boxes to the right of the screen, that holds no data.
+
+v7 <-o_o->: Removed a breadcrumb menu, removed empty boxes to the right of the screen, that holds no data.
                 Cleaned the code of any info that is not being used. Will include if any new functions are needed for
                 the site. As of now the essentials are being built.
                 * on templates\index.html to aquire image follow this format :
                   <header class="masthead" style="background-image: url('{{STATIC_URL}}img/home-bg.jpg')">
--wor:v8:
-v9:
+
+--v8 |o_o|:    Fixed Navigation / Design issue -> updated  {% page_menu "pages/menus/dropdown.html" %} to
+                primary.html @ <div class="collapse navbar-collapse" id="navbarResponsive"> line # 71-72
+
+                Activated Blog feature of Mezzanine /my_project/urls.py -> url("^$", blog_views.blog_post_list,
+                name="home"), while commenting out url("^$", mezzanine.pages.views.page, {"slug": "/"}, name="home"),
+                see urls.py for more information in regards to a BLOG-ONLY SITE vs HOMEPAGE AS STATIC TEMPLATE
+                or check the documentation @ http://mezzanine.jupo.org/docs/configuration.html
+
+                uncomment -> from mezzanine.blog import views as blog_views @ urls.py , include BLOG_SLUG = '' @
+                settings.py under CUSTOM SETTINGS
+
+                to make a 'home page' import this into urls.py -> from mezzanine.pages.views import page
+                comment  from mezzanine.blog import views as blog_views and un-comment
+                url("^$", page, {"slug": "/"}, name="home"),
+
+                Its orignally was mezzanine.pages.views.page. If you keep it as it is, an error will occur. So only
+                delete mezzanine.pages.views. so it will be page,
+----------------------------   ----------------------------   ---------------------------- ----------------------------
+
+-wor:v9:
 v10:
 v11:
 v12:
