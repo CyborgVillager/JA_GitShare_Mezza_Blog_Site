@@ -70,9 +70,12 @@ v7 <-o_o->: Removed a breadcrumb menu, removed empty boxes to the right of the s
                 delete mezzanine.pages.views. so it will be page,
 
                 To aquire more info check mezzanine @ mezzanine_pyvenv/mezzanine/pages/views.py
+
 ----------------------------   ----------------------------   ---------------------------- ----------------------------
--wor:v9:
-v10:
+--v9:           For now Ill just use url("^$", direct_to_template, {"template": "index.html"}, name="home"),
+                    and comment out the rest. including from mezzanine.pages.views import page
+                    Will check on the other options after finish with this test project
+-wor:v10:
 v11:
 v12:
 v13:
