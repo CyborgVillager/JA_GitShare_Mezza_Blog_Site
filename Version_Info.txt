@@ -93,12 +93,12 @@ v11:   Updated pageheader and main blocks @ base.html & index.html -> moved from
         <!--Page Header--> Check at lines 22-41 -update the 'check @
         lines 22-41' if the code increase/decrease in size
 ----------------------------   ----------------------------   ---------------------------- ----------------------------
-:v14: Modified hr (line 89) from index.html to base.html comments from index.html -> Have some ideas on
+v14: Modified hr (line 89) from index.html to base.html comments from index.html -> Have some ideas on
         using this feature for other use, for now it will be here, until needed, for now it will
         be @ base.html line 84-update as needed comments from base.html -> This came from index.html line 89,
         will check on this later for other use/display
 
---:v15: http://mezzanine.jupo.org/docs/configuration.html -> CTRL - F -> FORMS_USE_HTML5 for more information , as of
+v15: http://mezzanine.jupo.org/docs/configuration.html -> CTRL - F -> FORMS_USE_HTML5 for more information , as of
             now its set to False. Make it True @ settings.py under CUSTOM SETTINGS line 347
 
             original place password @ activate - last line -> export EMAIL_HOST_PASSWORD="password". However for now
@@ -113,8 +113,14 @@ v11:   Updated pageheader and main blocks @ base.html & index.html -> moved from
 
 
 
---wor:v16:
-v17:
+--v16: form.html is connected @ /form_fields.html
+            Made 'required' hidden untill user has entered the information with no data,
+            Fixed Content page displays, required is hidden.
+            The css for the displays can be found @ theme/static/css/custom.css
+
+            Transfered  <div class="col-lg-8 col-md-10 mx-auto"> from index.html to base.html -> can be found @
+            line 81 to ensure block main will be affected
+-wor:v17:
 v18:
 v19:
 v20:
