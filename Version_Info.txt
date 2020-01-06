@@ -75,8 +75,11 @@ v7 <-o_o->: Removed a breadcrumb menu, removed empty boxes to the right of the s
 v9:           For now Ill just use url("^$", direct_to_template, {"template": "index.html"}, name="home"),
                     and comment out the rest. including from mezzanine.pages.views import page
                     Will check on the other options after finish with this test project
---v10: Disabled Blog_Slug in settings. So now the web page will show tabs such as /about only /about/ instead of
+v10: Disabled Blog_Slug in settings. So now the web page will show tabs such as /about only /about/ instead of
         /pages/about
+
+--v10.5:     -Edit: Updated base.html - included a link to the github from the github icon, if a user clicks on it
+                It will take them to the github respo
 -wor:v11:
 v12:
 v13:
