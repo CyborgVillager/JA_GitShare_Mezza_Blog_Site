@@ -93,13 +93,27 @@ v11:   Updated pageheader and main blocks @ base.html & index.html -> moved from
         <!--Page Header--> Check at lines 22-41 -update the 'check @
         lines 22-41' if the code increase/decrease in size
 ----------------------------   ----------------------------   ---------------------------- ----------------------------
---:v14: Modified hr (line 89) from index.html to base.html comments from index.html -> Have some ideas on
+:v14: Modified hr (line 89) from index.html to base.html comments from index.html -> Have some ideas on
         using this feature for other use, for now it will be here, until needed, for now it will
         be @ base.html line 84-update as needed comments from base.html -> This came from index.html line 89,
         will check on this later for other use/display
 
--wor:v15:
-v16:
+--:v15: http://mezzanine.jupo.org/docs/configuration.html -> CTRL - F -> FORMS_USE_HTML5 for more information , as of
+            now its set to False. Make it True @ settings.py under CUSTOM SETTINGS line 347
+
+            original place password @ activate - last line -> export EMAIL_HOST_PASSWORD="password". However for now
+            it will be at settings.py as EMAIL_HOST_PASSWORD = 'password' -> not 'secure'. However for the time being
+            this will do. Will work on improving the security aspect in-depth in a later session.
+
+            You have to allow less secuire apps by going on this link from google
+            https://myaccount.google.com/u/2/lesssecureapps?pageId=none <- takes you directly to it
+            https://support.google.com/accounts/answer/6010255?hl=en <- main page
+
+            Contact needs to be worked on as well- will not receive a notification for the moment.
+
+
+
+--wor:v16:
 v17:
 v18:
 v19:

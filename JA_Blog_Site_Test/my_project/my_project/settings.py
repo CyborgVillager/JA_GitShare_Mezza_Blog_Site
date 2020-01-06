@@ -348,3 +348,14 @@ else:
 ####################
 # Remove/disable Blog Slug
 # BLOG_SLUG = ''
+FORMS_USE_HTML5 = True
+
+####################
+# EMAIL - CONTACT #
+####################
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_PORT = 587
+EMAIL_USE_TLS = True
+EMAIL_HOST_USER = 'xcominitiative1994@gmail.com'
+#EMAIL_HOST_PASSWORD = 'os.environ['EMAIL_HOST_PASSWORD']'
+EMAIL_HOST_PASSWORD = 'password'
