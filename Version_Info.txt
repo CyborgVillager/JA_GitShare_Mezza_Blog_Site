@@ -80,10 +80,13 @@ v10: Disabled Blog_Slug in settings. So now the web page will show tabs such as 
 
 v10.5:     -Edit: Updated base.html - included a link to the github from the github icon, if a user clicks on it
                 It will take them to the github respo
---v11:   Updated pageheader and main blocks @ base.html & index.html -> moved from index.html to base.html
+v11:   Updated pageheader and main blocks @ base.html & index.html -> moved from index.html to base.html
             to contain the rows & have a container for About.page/organized the index a bit
--wor:v12:
-v13:
+--:v12: page.html used for admin use copied to templates/pages/page.html -> can be aquired from tempdrafts which can
+            be found @ mezzanine_pyvenv -Lib-site-packages->mezzanine-pages-templates-pages
+            {{ request.path }}-give current url of the page the user is on at the moment
+            if this path = /page_name/ show this content. example /about/
+-wor:v13:
 v14:
 v15:
 v16:
