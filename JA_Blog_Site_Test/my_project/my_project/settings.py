@@ -346,4 +346,5 @@ else:
 ####################
 # CUSTOM SETTINGS #
 ####################
-BLOG_SLUG = ''
+# Remove/disable Blog Slug
+# BLOG_SLUG = ''
