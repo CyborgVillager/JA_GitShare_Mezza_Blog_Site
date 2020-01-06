@@ -18,7 +18,7 @@ v1: Setup Mezzanine, created login/setup basic db, will work further on the admi
 v2: Added 'About Us Page' & a custom post to test out a couple of features of using Mezzanine
 v3: Updated mezzanine_pyvenv / placed in corrected format
 ----------------------------    ----------------------------   ------------------------- ------------------------------
---v4: Collected the templates from Mezzanine to be used as temp drafts for future testing/improvements for the site.
+v4: Collected the templates from Mezzanine to be used as temp drafts for future testing/improvements for the site.
 command to do this (while in my_project dir) -> python manage.py collecttemplates -> rename to tempdrafts
 
     * In order to 'move' a file such as form.html you have to copy the whole folder. e.g to aquire form.html copy
@@ -78,10 +78,11 @@ v9:           For now Ill just use url("^$", direct_to_template, {"template": "i
 v10: Disabled Blog_Slug in settings. So now the web page will show tabs such as /about only /about/ instead of
         /pages/about
 
---v10.5:     -Edit: Updated base.html - included a link to the github from the github icon, if a user clicks on it
+v10.5:     -Edit: Updated base.html - included a link to the github from the github icon, if a user clicks on it
                 It will take them to the github respo
--wor:v11:
-v12:
+--v11:   Updated pageheader and main blocks @ base.html & index.html -> moved from index.html to base.html
+            to contain the rows & have a container for About.page/organized the index a bit
+-wor:v12:
 v13:
 v14:
 v15:
