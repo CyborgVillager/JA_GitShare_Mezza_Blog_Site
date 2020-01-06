@@ -51,7 +51,7 @@ v7 <-o_o->: Removed a breadcrumb menu, removed empty boxes to the right of the s
                 * on templates\index.html to aquire image follow this format :
                   <header class="masthead" style="background-image: url('{{STATIC_URL}}img/home-bg.jpg')">
 
---v8 |o_o|:    Fixed Navigation / Design issue -> updated  {% page_menu "pages/menus/dropdown.html" %} to
+v8 |o_o|:    Fixed Navigation / Design issue -> updated  {% page_menu "pages/menus/dropdown.html" %} to
                 primary.html @ <div class="collapse navbar-collapse" id="navbarResponsive"> line # 71-72
 
                 Activated Blog feature of Mezzanine /my_project/urls.py -> url("^$", blog_views.blog_post_list,
