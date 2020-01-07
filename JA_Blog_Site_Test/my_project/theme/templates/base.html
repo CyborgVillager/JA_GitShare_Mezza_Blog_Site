@@ -76,11 +76,14 @@
   </nav>
 
   {% block pageheader %}{% endblock %}
+
+  {% block blogposthero %}{% endblock %}
+
   <!-- Aquired from page.html -> Page Header -->
   <!-- This is for the home page. To see other page categories go to page.html
         under Page Header -->
   {% if request.path == '/'  %}
-    <header class="masthead" style= "background-image: url('{{STATIC_URL}}img/home-bg.jpg')">
+    <header class="masthead" style= "background-image: url('{{STATIC_URL}}img/borisut-chamnan.jpg')">
     <div class="overlay"></div>
     <div class="container">
       <div class="row">

@@ -84,12 +84,12 @@ v10.5:     -Edit: Updated base.html - included a link to the github from the git
 v11:   Updated pageheader and main blocks @ base.html & index.html -> moved from index.html to base.html
             to contain the rows & have a container for About.page/organized the index a bit
 
-:v12: page.html used for admin use copied to templates/pages/page.html -> can be aquired from tempdrafts which can
+v12: page.html used for admin use copied to templates/pages/page.html -> can be aquired from tempdrafts which can
             be found @ mezzanine_pyvenv -Lib-site-packages->mezzanine-pages-templates-pages
             {{ request.path }}-give current url of the page the user is on at the moment
             if this path = /page_name/ show this content. example /about/
 
-:v13: Any new pages will go through my_project/theme/templates/pages/page.html in which will be directed to
+v13: Any new pages will go through my_project/theme/templates/pages/page.html in which will be directed to
         <!--Page Header--> Check at lines 22-41 -update the 'check @
         lines 22-41' if the code increase/decrease in size
 ----------------------------   ----------------------------   ---------------------------- ----------------------------
@@ -110,7 +110,7 @@ v15: http://mezzanine.jupo.org/docs/configuration.html -> CTRL - F -> FORMS_USE_
             https://support.google.com/accounts/answer/6010255?hl=en <- main page
 
             Contact needs to be worked on as well- will not receive a notification for the moment.
-
+----------------------------   ----------------------------   ---------------------------- ----------------------------
 v16: form.html is connected @ /form_fields.html
             Made 'required' hidden untill user has entered the information with no data,
             Fixed Content page displays, required is hidden.
@@ -118,10 +118,11 @@ v16: form.html is connected @ /form_fields.html
 
             Transfered  <div class="col-lg-8 col-md-10 mx-auto"> from index.html to base.html -> can be found @
             line 81 to ensure block main will be affected
+
 v17:  Aquired data from page.html -> Page Header and moved it to base.html to allow home page to show
         To see other page categories go to page.html
 
---:v18:   Django template filters if you would like to further customize the site -> to cuystomize the filter
+v18:   Django template filters if you would like to further customize the site -> to cuystomize the filter
             https://docs.djangoproject.com/en/3.0/ref/templates/builtins/
 
             Allowed the post to have a 'time' on when it was posted on blog_post_list.html line 94-95.
@@ -136,8 +137,9 @@ v17:  Aquired data from page.html -> Page Header and moved it to base.html to al
 
             Added 'Read More' with comments -> more info can be found @ templates/blog/blog_post_list.html @ line 97
 ----------------------------   ----------------------------   ---------------------------- ----------------------------
--wor:v19:
-v20:
+--:v19: Aquired blog_post_detail.html from tempdrafts and placed it on templates/blog & copied base.html home img
+            to user blog @ blog_post.detail.html @ line 24-38
+-wor:v20:
 v21:
 v22:
 v23:
