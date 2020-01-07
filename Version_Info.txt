@@ -120,10 +120,23 @@ v16: form.html is connected @ /form_fields.html
 
             Transfered  <div class="col-lg-8 col-md-10 mx-auto"> from index.html to base.html -> can be found @
             line 81 to ensure block main will be affected
---v17:  Aquired data from page.html -> Page Header and moved it to base.html to allow home page to show
+v17:  Aquired data from page.html -> Page Header and moved it to base.html to allow home page to show
         To see other page categories go to page.html
--wor:v18:
-v19:
+--:v18:   Django template filters if you would like to further customize the site -> to cuystomize the filter
+            https://docs.djangoproject.com/en/3.0/ref/templates/builtins/
+
+            Allowed the post to have a 'time' on when it was posted on blog_post_list.html line 94-95.
+            for more info on timesince https://docs.djangoproject.com/en/3.0/ref/templates/builtins/
+                CTRL-F->timesince
+                removed timesince and ago location -> {{sometime }} ago {% endblocktrans %}
+
+            After that started to truncate words or in this case chars -> truncatewords can be found at the link
+            https://docs.djangoproject.com/en/3.0/ref/templates/builtins/ -> CTRL-F->truncatewords
+            Shorten the blog post para's to 60 words per post on the front page. Once a user has click on the post
+            they can see the whole post info
+
+            Added 'Read More' with comments -> more info can be found @ templates/blog/blog_post_list.html @ line 97
+-wor:v19:
 v20:
 v21:
 v22:
