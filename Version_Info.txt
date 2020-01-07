@@ -143,11 +143,23 @@ v19: Aquired blog_post_detail.html from tempdrafts and placed it on templates/bl
 v20: Updated user's blog title to their custom title for the blog instead of 'Clean Blog' @ blog_post.detail.html
             line 31  Also updated the css to show which post was created by whom with time @ custom.css
 
---v21: Comments can be found @ tempdrafts-generic-comments.html, disabled ratings during the comments & after commenting
+v21: Comments can be found @ tempdrafts-generic-comments.html, disabled ratings during the comments & after commenting
             can be re-activated @ settings.py. User-commented post is comment.html, before commenting to make a comment
             is called comments.html
--wor:v22:
-v23:
+--:v22: Fixed some small issues, now you can edit a post/info on the same location instead of having to go to your
+        post lists to edit it, besides that the site is pretty much finished. Will continue to work on it and improve
+        the later versions @ a later date. For now will learn a bit more about python/tkinter gui. Going to use
+        this new knowledge to make more user-friendly programs without the need to do steps 1,2,3,4,5 to start the program
+        it will be either a step 1-2 process to start the program with a gui to help aid in visual aspects of it.
+
+        Besides that feel free to play around this the code, and learn something for your self as well. Lets increase
+        the world's knowledge of code together.
+
+        Anyhow have a great day/night
+        
+        ~Jonathan Almawi
+            A.K.A CyborgVillager
+-wor:v23:
 v24:
 v25:
 v26:
