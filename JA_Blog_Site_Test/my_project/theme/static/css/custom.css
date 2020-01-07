@@ -6,3 +6,7 @@ form.mezzanine-form input, form.mezzanine-form textarea {
     width: 100%
 }
 
+.site-heading .blog_meta a{
+    color: white;
+}
+

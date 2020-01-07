@@ -137,10 +137,12 @@ v18:   Django template filters if you would like to further customize the site -
 
             Added 'Read More' with comments -> more info can be found @ templates/blog/blog_post_list.html @ line 97
 ----------------------------   ----------------------------   ---------------------------- ----------------------------
---:v19: Aquired blog_post_detail.html from tempdrafts and placed it on templates/blog & copied base.html home img
+v19: Aquired blog_post_detail.html from tempdrafts and placed it on templates/blog & copied base.html home img
             to user blog @ blog_post.detail.html @ line 24-38
--wor:v20:
-v21:
+--v20: Updated user's blog title to their custom title for the blog instead of 'Clean Blog' @ blog_post.detail.html
+            line 31
+            Also updated the css to show which post was created by whom with time
+-wor:v21:
 v22:
 v23:
 v24:
