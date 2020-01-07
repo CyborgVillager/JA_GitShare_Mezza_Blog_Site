@@ -30,12 +30,27 @@
             <div class="site-heading">
             <h1>{{ blog_post.title }}</h1>
             <!-- <span class="subheading">A Blog Theme by Start Bootstrap</span> -->
+             <!-- Posted by x/y Author -->
                 <p class="blog_meta">
                     {% trans "Posted by" %}:
                     {% with blog_post.user as author %}
                     <a  href="{% url "blog_post_list_author" author %}">{{ author.get_full_name|default:author.username }}</a>
                     {% endwith %}
-                    {% blocktrans with sometime=blog_post.publish_date|timesince %}{{ sometime }} ago{% endblocktrans %}
+                    {% blocktrans with sometime=blog_post.publish_date%}{{ sometime }} {% endblocktrans %}
+                    <!-- Comments -->
+                    <br>
+                    {% if blog_post.allow_comments %}
+                {% if settings.COMMENTS_DISQUS_SHORTNAME %}
+                    (<a href="{{ blog_post.get_absolute_url }}#disqus_thread"
+                        data-disqus-identifier="{% disqus_id_for blog_post %}">{% spaceless %}
+                        {% trans "Comments" %}
+                    {% endspaceless %}</a>)
+                {% else %}(<a href="#comments">{% spaceless %}
+                    {% blocktrans count comments_count=blog_post.comments_count %}{{ comments_count }}
+                            comment{% plural %}{{ comments_count }} Comments{% endblocktrans %}
+                    {% endspaceless %}</a>)
+                {% endif %}
+            {% endif %}
               </p>
           </div>
         </div>
@@ -44,25 +59,8 @@
     </header>
 {% endblock %}
 
-
 {% block main %}
 
-
-{% block blog_post_detail_commentlink %}
-<p>
-    {% if blog_post.allow_comments %}
-        {% if settings.COMMENTS_DISQUS_SHORTNAME %}
-            (<a href="{{ blog_post.get_absolute_url }}#disqus_thread"
-                data-disqus-identifier="{% disqus_id_for blog_post %}">{% spaceless %}
-                {% trans "Comments" %}
-            {% endspaceless %}</a>)
-        {% else %}(<a href="#comments">{% spaceless %}
-            {% blocktrans count comments_count=blog_post.comments_count %}{{ comments_count }} comment{% plural %}{{ comments_count }} comments{% endblocktrans %}
-            {% endspaceless %}</a>)
-        {% endif %}
-    {% endif %}
-</p>
-{% endblock %}
 
 {% block blog_post_detail_featured_image %}
 {% if settings.BLOG_USE_FEATURED_IMAGE and blog_post.featured_image %}
@@ -94,6 +92,8 @@
 {% endif %}
 {% endblock %}
 
+<!-- Disable Ratings for now -->
+<!--
 {% block blog_post_detail_rating %}
 <div class="panel panel-default rating">
     <div class="panel-body">
@@ -101,12 +101,15 @@
     </div>
 </div>
 {% endblock %}
-
+-->
+<!-- Disable Share Feature for now -->
+<!--
 {% block blog_post_detail_sharebuttons %}
 {% set_short_url_for blog_post %}
 <a class="btn btn-sm share-twitter" target="_blank" href="https://twitter.com/intent/tweet?url={{ blog_post.short_url|urlencode }}&amp;text={{ blog_post.title|urlencode }}">{% trans "Share on Twitter" %}</a>
 <a class="btn btn-sm share-facebook" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u={{ request.build_absolute_uri }}">{% trans "Share on Facebook" %}</a>
 {% endblock %}
+-->
 
 {% block blog_post_previous_next %}
 <ul class="pager">

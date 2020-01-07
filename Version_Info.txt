@@ -139,11 +139,14 @@ v18:   Django template filters if you would like to further customize the site -
 ----------------------------   ----------------------------   ---------------------------- ----------------------------
 v19: Aquired blog_post_detail.html from tempdrafts and placed it on templates/blog & copied base.html home img
             to user blog @ blog_post.detail.html @ line 24-38
---v20: Updated user's blog title to their custom title for the blog instead of 'Clean Blog' @ blog_post.detail.html
-            line 31
-            Also updated the css to show which post was created by whom with time
--wor:v21:
-v22:
+
+v20: Updated user's blog title to their custom title for the blog instead of 'Clean Blog' @ blog_post.detail.html
+            line 31  Also updated the css to show which post was created by whom with time @ custom.css
+
+--v21: Comments can be found @ tempdrafts-generic-comments.html, disabled ratings during the comments & after commenting
+            can be re-activated @ settings.py. User-commented post is comment.html, before commenting to make a comment
+            is called comments.html
+-wor:v22:
 v23:
 v24:
 v25:
