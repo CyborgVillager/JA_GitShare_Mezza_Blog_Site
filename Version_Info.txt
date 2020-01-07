@@ -111,8 +111,6 @@ v15: http://mezzanine.jupo.org/docs/configuration.html -> CTRL - F -> FORMS_USE_
 
             Contact needs to be worked on as well- will not receive a notification for the moment.
 
-
-
 v16: form.html is connected @ /form_fields.html
             Made 'required' hidden untill user has entered the information with no data,
             Fixed Content page displays, required is hidden.
@@ -122,6 +120,7 @@ v16: form.html is connected @ /form_fields.html
             line 81 to ensure block main will be affected
 v17:  Aquired data from page.html -> Page Header and moved it to base.html to allow home page to show
         To see other page categories go to page.html
+
 --:v18:   Django template filters if you would like to further customize the site -> to cuystomize the filter
             https://docs.djangoproject.com/en/3.0/ref/templates/builtins/
 
@@ -136,6 +135,7 @@ v17:  Aquired data from page.html -> Page Header and moved it to base.html to al
             they can see the whole post info
 
             Added 'Read More' with comments -> more info can be found @ templates/blog/blog_post_list.html @ line 97
+----------------------------   ----------------------------   ---------------------------- ----------------------------
 -wor:v19:
 v20:
 v21:
