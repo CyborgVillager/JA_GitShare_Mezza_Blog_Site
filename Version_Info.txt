@@ -113,15 +113,16 @@ v15: http://mezzanine.jupo.org/docs/configuration.html -> CTRL - F -> FORMS_USE_
 
 
 
---v16: form.html is connected @ /form_fields.html
+v16: form.html is connected @ /form_fields.html
             Made 'required' hidden untill user has entered the information with no data,
             Fixed Content page displays, required is hidden.
             The css for the displays can be found @ theme/static/css/custom.css
 
             Transfered  <div class="col-lg-8 col-md-10 mx-auto"> from index.html to base.html -> can be found @
             line 81 to ensure block main will be affected
--wor:v17:
-v18:
+--v17:  Aquired data from page.html -> Page Header and moved it to base.html to allow home page to show
+        To see other page categories go to page.html
+-wor:v18:
 v19:
 v20:
 v21:
