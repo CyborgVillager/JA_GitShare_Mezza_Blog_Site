@@ -1,9 +1,4 @@
-============
-Basic Info
-===========
-
-Making a Django Site with the aid of Mezzanine
-http://mezzanine.jupo.org/
+# Django Site with the aid of Mezzanine
 
 Basically help aid in the creation of a CMS style site, while saving time & improving
 efficiency of a content - sharing project.
@@ -22,8 +17,3 @@ User: admin
 Pass: Password
 
 
--------
-To start via terminal : cd my_project -> python manage.py runserver
--------
-
-~ JA

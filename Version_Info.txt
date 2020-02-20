@@ -160,8 +160,9 @@ v22: Fixed some small issues, now you can edit a post/info on the same location 
         ~Jonathan Almawi
             A.K.A CyborgVillager
 ----------------------------   ----------------------------   ---------------------------- ----------------------------
---v23 Project Re-Activated: rebooting the mezza site, and improving the concept for it.
+v23 Project Re-Activated: rebooting the mezza site, and improving the concept for it.
 
+--v24 Updated README.md: updated README.md, will include a chatbot for the site once the site becomes fully operational
 
 
 Authors:
