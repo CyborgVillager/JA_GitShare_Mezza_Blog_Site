@@ -162,7 +162,21 @@ v22: Fixed some small issues, now you can edit a post/info on the same location 
 ----------------------------   ----------------------------   ---------------------------- ----------------------------
 v23 Project Re-Activated: rebooting the mezza site, and improving the concept for it.
 
---v24 Updated README.md: updated README.md, will include a chatbot for the site once the site becomes fully operational
+v24 Updated README.md: updated README.md, will include a chatbot for the site once the site becomes fully operational
+
+--v25 Blog/Pages Slug: mezzanine_pyvenve/lib/mezzanine/urls.py -> @ line 79-93 Pages Slug if Blog_Slug is not availb/
+                        removes / & adds / . Core file for mezzanine.
+
+                        If a user enters a 'wrong url' for a post. It will take them to the home page instead of a 404
+                        error.
+                        @ my_project/theme/views.py line 3 - 8 import redirect and function for redirection/true
+                        @ my_project/my_project/urls.py line 11 -> import theme.views  & line 73-74 Blog Post Redirect
+                        to connect views.py -> urls.py for this operation to work @ the site.
+
+                        ##
+                        To run the program type the following -> python manage.py runserver
+
+
 
 
 Authors:
