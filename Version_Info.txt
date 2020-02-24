@@ -164,7 +164,7 @@ v23 Project Re-Activated: rebooting the mezza site, and improving the concept fo
 
 v24 Updated README.md: updated README.md, will include a chatbot for the site once the site becomes fully operational
 
---v25 Blog/Pages Slug: mezzanine_pyvenve/lib/mezzanine/urls.py -> @ line 79-93 Pages Slug if Blog_Slug is not availb/
+v25 Blog/Pages Slug: mezzanine_pyvenve/lib/mezzanine/urls.py -> @ line 79-93 Pages Slug if Blog_Slug is not availb/
                         removes / & adds / . Core file for mezzanine.
 
                         If a user enters a 'wrong url' for a post. It will take them to the home page instead of a 404
@@ -176,6 +176,8 @@ v24 Updated README.md: updated README.md, will include a chatbot for the site on
                         ##
                         To run the program type the following -> python manage.py runserver
 
+
+--wor:v26 Mini work: will continue to work on this project, 2/24/20
 
 
 
