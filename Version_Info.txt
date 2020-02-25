@@ -177,7 +177,11 @@ v25 Blog/Pages Slug: mezzanine_pyvenve/lib/mezzanine/urls.py -> @ line 79-93 Pag
                         To run the program type the following -> python manage.py runserver
 
 
---wor:v26 Mini work: will continue to work on this project, 2/24/20
+v26 Mini work: will continue to work on this project, 2/24/20
+
+--v27 Proj Resume: posts now show their post images on the front page, regarding their info. Changes @ templates/blog/
+                    blog_post_list.html line 82-89 includes Featured Images Insert that allow this function to be enabled
+                    and be seen @ the site.
 
 
 
