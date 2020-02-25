@@ -183,9 +183,17 @@ v27 Proj Resume: posts now show their post images on the front page, regarding t
                     blog_post_list.html line 82-89 includes Featured Images Insert that allow this function to be enabled
                     and be seen @ the site.
 
---v28 Media Location & Image Post: media images will be saved @ my_project/static/media depending on where they were uploaded
+v28 Media Location & Image Post: media images will be saved @ my_project/static/media depending on where they were uploaded
                                     they will be categorized in regards to them either galleries, .thumbnails , blog, upload
                                     , etc.
+
+
+--v29 Media & Static Post Image: posts that have custom images will be seen on top of the post once a user clicks on the post.
+                                    if the post does not have a custom image it will go to the static image
+                                     @ static/img/humanity_destiny.jpg
+
+                                     Changes can be seen @ templates/blog/blog_post/detail.html used line 65-69 and pasted
+                                     it onto line 25-29. Then edited line 33-35 to include said changes from v29.
 
 
 
