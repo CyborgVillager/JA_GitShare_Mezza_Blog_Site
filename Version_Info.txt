@@ -188,7 +188,7 @@ v28 Media Location & Image Post: media images will be saved @ my_project/static/
                                     , etc.
 
 
---v29 Media & Static Post Image: posts that have custom images will be seen on top of the post once a user clicks on the post.
+v29 Media & Static Post Image: posts that have custom images will be seen on top of the post once a user clicks on the post.
                                     if the post does not have a custom image it will go to the static image
                                      @ static/img/humanity_destiny.jpg
 
@@ -196,7 +196,9 @@ v28 Media Location & Image Post: media images will be saved @ my_project/static/
                                      it onto line 25-29. Then edited line 33-35 to include said changes from v29.
 
 
-
+--v30 Rebooting Commence: Commencing Reboot will be using this template for VillagerPvP and possible portfoilio addon as well
+                            For now it will be used to host VillagerPvP & Cult of the Fallen Angel Content. Debugging some
+                            minor things then will work on mobile friendly features .
 Authors:
 *********   *********   *********   *********   *********   *********   *********   *********
   ____      _                   __     ___ _ _
