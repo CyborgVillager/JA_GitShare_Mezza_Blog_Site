@@ -21,14 +21,14 @@
 <li class="active">{{ blog_post.title }}</li>
 {% endblock %}
 
-
+<!-- Post featured image on top-->
 {% block blog_post_detail_featured_image %}
 {% if settings.BLOG_USE_FEATURED_IMAGE and blog_post.featured_image %}
 <p><img class="img-responsive" src="{{ MEDIA_URL }}{% thumbnail blog_post.featured_image 600 0 %}"></p>
 {% endif %}
 {% endblock %}
 
-
+<!-- If not image has been chosen use the default image to be shown for the post-->
 {% block blogposthero %}
     <header class="masthead" style= "{% if settings.BLOG_USE_FEATURED_IMAGE and blog_post.featured_image %}
     background-image:url('{{ MEDIA_URL }}{% thumbnail blog_post.featured_image 1900 1070 %}'

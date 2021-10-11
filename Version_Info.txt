@@ -199,8 +199,9 @@ v29 Media & Static Post Image: posts that have custom images will be seen on top
 v30 Rebooting Commence: Commencing Reboot will be using this template for VillagerPvP and possible portfoilio addon as well
                             For now it will be used to host VillagerPvP & Cult of the Fallen Angel Content. Debugging some
                             minor things then will work on mobile friendly features .
---v31 Blog Redirect: Minor changes to urls if a user type in /blog just redirect to home page unless they put in specific
+v31 Blog Redirect: Minor changes to urls if a user type in /blog just redirect to home page unless they put in specific
                         info.
+--v32  IMG before aws public upload: blog_post_list -> used for blog post sizing and other aspects once it has been published, minor fixes for img additions
 Authors:
 *********   *********   *********   *********   *********   *********   *********   *********
   ____      _                   __     ___ _ _
