@@ -78,6 +78,7 @@
 {% endif %}
 
 {% block blog_post_detail_content %}
+<!-- Editing posted information on site page-->
 {% editable blog_post.content %}
 {{ blog_post.content|richtext_filters }}
 {% endeditable %}

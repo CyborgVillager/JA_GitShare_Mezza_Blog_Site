@@ -203,8 +203,10 @@ v31 Blog Redirect: Minor changes to urls if a user type in /blog just redirect t
                         info.
 v32  IMG before aws public upload: blog_post_list -> used for blog post sizing and other aspects once it has been published, minor fixes for img additions
 
---v33 Retina included for MAC:  http://mezzanine.jupo.org/docs/model-customization.html & https://imulus.github.io/retinajs/ & https://unsplash.com/
+v33 Retina included for MAC:  http://mezzanine.jupo.org/docs/model-customization.html & https://imulus.github.io/retinajs/ & https://unsplash.com/
             Retina addition for Mac devices, check in more after personal 3 is done. Check for resolution img for posting as well on retina img
+
+--v34 Enabling Editing Title: Enabled editing title after it has been published on site for quicker access
 Authors:
 *********   *********   *********   *********   *********   *********   *********   *********
   ____      _                   __     ___ _ _
