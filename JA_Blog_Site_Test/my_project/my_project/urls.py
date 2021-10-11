@@ -72,7 +72,8 @@ urlpatterns += [
 
     # Blog Post Redirect
     url('^blog/$', theme.views.blog_post_redirect),
-
+    # BLOG PAGE REDIRECT
+    url("^blog/$", theme.views.blog_post_redirect),
     # MEZZANINE'S URLS
     # ----------------
     # ADD YOUR OWN URLPATTERNS *ABOVE* THE LINE BELOW.

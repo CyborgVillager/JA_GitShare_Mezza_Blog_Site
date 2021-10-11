@@ -196,9 +196,11 @@ v29 Media & Static Post Image: posts that have custom images will be seen on top
                                      it onto line 25-29. Then edited line 33-35 to include said changes from v29.
 
 
---v30 Rebooting Commence: Commencing Reboot will be using this template for VillagerPvP and possible portfoilio addon as well
+v30 Rebooting Commence: Commencing Reboot will be using this template for VillagerPvP and possible portfoilio addon as well
                             For now it will be used to host VillagerPvP & Cult of the Fallen Angel Content. Debugging some
                             minor things then will work on mobile friendly features .
+--v31 Blog Redirect: Minor changes to urls if a user type in /blog just redirect to home page unless they put in specific
+                        info.
 Authors:
 *********   *********   *********   *********   *********   *********   *********   *********
   ____      _                   __     ___ _ _
