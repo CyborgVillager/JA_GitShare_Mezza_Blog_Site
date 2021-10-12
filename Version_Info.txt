@@ -206,7 +206,17 @@ v32  IMG before aws public upload: blog_post_list -> used for blog post sizing a
 v33 Retina included for MAC:  http://mezzanine.jupo.org/docs/model-customization.html & https://imulus.github.io/retinajs/ & https://unsplash.com/
             Retina addition for Mac devices, check in more after personal 3 is done. Check for resolution img for posting as well on retina img
 
---v34 Enabling Editing Title: Enabled editing title after it has been published on site for quicker access
+v34 Enabling Editing Title: Enabled editing title after it has been published on site for quicker access
+
+--v35 Enabled Embed Video Upload: Enabled video embed upload will work on allowing direct video upload to site soon. So far
+                        TINYMCE_SETUP_JS = "tinymce_setup.js"
+                        RICHTEXT_FILTER_LEVEL = 2  & http://mezzanine.jupo.org/docs/configuration.html#richtext-filter-level can be
+                        looked at for now / https://www.tiny.cloud/docs/
+
+                        Minor INFO Brave does not update the new plugins will have to use chrome to see the new plugin enabled
+                        for posting
+
+                        - Also Added restoredraft, superscript,  subscript for tinymce_setup.js
 Authors:
 *********   *********   *********   *********   *********   *********   *********   *********
   ____      _                   __     ___ _ _

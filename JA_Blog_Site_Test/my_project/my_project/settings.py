@@ -350,7 +350,10 @@ else:
 #BLOG_SLUG = ''
 FORMS_USE_HTML5 = True
 BLOG_USE_FEATURED_IMAGE = True
-
+COMMENTS_USE_RATINGS = False
+# Re-check not connecting fully or allow editing for new update @ static\tinymce_setup.js
+TINYMCE_SETUP_JS = "tinymce_setup.js"
+RICHTEXT_FILTER_LEVEL = 2
 
 
 ####################
@@ -362,4 +365,3 @@ EMAIL_USE_TLS = True
 EMAIL_HOST_USER = 'xcominitiative1994@gmail.com'
 #EMAIL_HOST_PASSWORD = 'os.environ['EMAIL_HOST_PASSWORD']'
 EMAIL_HOST_PASSWORD = 'password'
-COMMENTS_USE_RATINGS = False
