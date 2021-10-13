@@ -25,3 +25,14 @@ form.mezzanine-form input, form.mezzanine-form textarea {
     border-bottom: 3px solid black;
 
 }
+
+/* Blog_post_list css */
+
+.blog-filters {
+    bottom: 40px;
+
+}
+
+.blog-filters {
+    display: block;
+}

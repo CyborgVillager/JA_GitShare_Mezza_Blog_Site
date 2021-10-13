@@ -80,10 +80,11 @@
 
   {% block blogposthero %}{% endblock %}
 
-  <!-- Aquired from page.html -> Page Header -->
+  <!-- Acquired from page.html -> Page Header -->
   <!-- This is for the home page. To see other page categories go to page.html
         under Page Header -->
-  {% if request.path == '/'  %}
+  <!-- Allow mast head to be shown in archive & category, archive temp disabled for now-->
+  {% if request.path == '/' or '/blog/archive' in request.path or '/blog/category' in request.path  %}
     <header class="masthead" style= "background-image: url('{{STATIC_URL}}img/borisut-chamnan.jpg')">
     <div class="overlay"></div>
     <div class="container">

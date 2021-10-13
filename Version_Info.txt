@@ -218,7 +218,10 @@ v35 Enabled Embed Video Upload: Enabled video embed upload will work on allowing
 
                         - Also Added restoredraft, superscript,  subscript for tinymce_setup.js
 
---v36 Gitignore update: Removed /static to show the new tinymce_setup.js for the post on v35 putting main files on a private respo backup
+v36 Gitignore update: Removed /static to show the new tinymce_setup.js for the post on v35 putting main files on a private respo backup
+
+--V37 Width Embed Video: For future embed video max width is width="410" height="315" , enabled Category on site for easier navigation, will work
+                            on archive at a later point
 Authors:
 *********   *********   *********   *********   *********   *********   *********   *********
   ____      _                   __     ___ _ _
